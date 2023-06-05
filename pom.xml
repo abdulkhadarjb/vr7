@@ -28,12 +28,12 @@
 	<distributionManagement>
 		 <snapshotRepository>
 		    <id>nexus</id>
-		    <url>http://http://54.178.7.147:8081/repository/snapshot-vr/</url>
+		    <url>http://54.178.7.147:8081/repository/snapshot-vr/</url>
 		 </snapshotRepository>
 		
 		<repository>
 		    <id>nexus</id>
-		    <url>http://43.207.136.46:8081/repository/sample-release/</url>
+		    <url>http://54.178.7.147:8081/repository/release-vr/</url>
 		</repository>
   	</distributionManagement>
 	
