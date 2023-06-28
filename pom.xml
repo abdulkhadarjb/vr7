@@ -2,7 +2,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>in.javahome</groupId>
-	<artifactId>myweb</artifactId>
+	<artifactId>vr7</artifactId>
 	<packaging>war</packaging>
 	<version>8.2.0</version>
 	<name>Java Home myweb</name>
@@ -11,6 +11,18 @@
 	<properties>
 		<docker.image.prefix>kammana</docker.image.prefix>
 		<sonar.host.url>http://172.31.47.245:9000/</sonar.host.url>
+        <plugins>
+        ...
+        <plugin>
+                <groupId>org.sonarsource.scanner.maven</groupId>
+                <artifactId>sonar-maven-plugin</artifactId>
+                <version>3.9.1.2184</version>
+       <configuration>
+                <sonar.login><sqa_6a781c114e5d361b2dfee183ee0429b244082462></sonar.login>
+       </configuration>
+       </plugin>
+        ...
+        </plugins>
 
 	</properties>
 	<dependencies>
